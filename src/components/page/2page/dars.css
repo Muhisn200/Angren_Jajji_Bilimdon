@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+        margin: 0;
+    padding: 0;
+}
+.dars{
+    width: 100%;
+    /*height: 100vh;*/
+display: flex;
+    flex-wrap: wrap;
+}
+
+.curs{
+    width: 19%;
+    height: 45%;
+    margin-left:72px;
+    margin-top: 8%;
+    /*border: 1px solid red;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.curs1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid red;*/
+}
+.curs2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid red;*/
+    margin-top: -5%;
+}
+.c1{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size:20px ;  justify-content: center;
+    align-items: center;
+}
+.d1{
+
+    margin-top: 3%;
+    margin-left: 32%;
+    font-size: 30px ;
+    position: absolute;
+}
+
+@media (min-width:300px) and (max-width: 550px) {
+    .dars {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 38%;
+    }
+.curs{
+    flex: 1 1 100%; /* Barcha kartalarni pastma-past qilish */
+    max-width: 100%;
+    margin-left:10%;
+    margin-top: 15%;
+}
+.d1{
+justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -12%;
+    /*border: 1px solid red;*/
+text-align: center;
+    margin-left: -2%;
+
+}
+
+}

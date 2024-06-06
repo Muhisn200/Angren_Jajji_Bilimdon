@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Home{
+    width: 99%;
+
+    height: 100vh;
+    /*border: 1px solid red;*/
+    margin-top: -5%;
+
+}
+
+
+.telegram{
+    width: 20%;
+    /*border:1px solid red ;*/
+}
+
+.bots{
+    margin-left: -48%;
+}
+
+.grl{
+    width:40%;
+    height: 74%;
+    margin-left: 55%;
+
+}
+.imge{
+    margin-top: -40%;
+    z-index: -1;
+    position: relative;
+}
+.qush1{
+    margin-top: -20px;
+    margin-left: 87%;
+    position: absolute;
+}
+.qush2{
+    margin-left: 49%;
+    margin-top: -10% ;
+
+}
+
+.tex{
+    width: 100%;
+    height: 100%;
+    margin-top: -10%;
+
+    /*border: 1px solid red;*/
+}
+.texth1{
+    width: 45%;
+    margin-left:10%;
+    font-size: 49px;
+    margin-top: 10%;
+    color:#D43700 ;
+}
+.textp{
+    margin-top: 1%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.yosh{
+    width: 35%;
+    /*height: 150px;*/
+    margin-top: 1%;
+    flex-wrap: wrap;
+    margin-left: 9%;
+    /*border: 1px solid red;*/
+
+}
+.yosh-1{
+    width: 20%;
+    height: 33px ;
+    margin: 10px;
+    border: none;
+    border-radius: 7px ;
+    /*box-shadow: 1px 5px 1px  rgba(128, 128, 128, 0.33);*/
+font-weight: bold;
+    font-size: 15px;
+}
+.yosh-2{
+    width: 20%;
+    height: 33px ;
+    margin: 10px;
+    border: none;
+    border-radius: 7px ;
+    /*box-shadow: 1px 5px 1px  rgba(128, 128, 128, 0.33);*/
+font-weight: bold;
+    font-size: 15px;
+}
+.yosh-3{
+    width: 20%;
+    height: 33px ;
+    margin: 10px;
+    border: none;
+    border-radius: 7px ;
+    /*box-shadow: 1px 5px 1px  rgba(128, 128, 128, 0.33);*/
+font-weight: bold;
+    font-size: 15px;
+}
+.yosh-4{
+    width: 20%;
+    height: 33px ;
+    margin: 10px;
+    border: none;
+    border-radius: 7px ;
+    /*box-shadow: 1px 5px 1px  rgba(128, 128, 128, 0.33);*/
+font-weight: bold;
+    font-size: 15px;
+}
+.yosh-5{
+    width: 20%;
+    height: 33px ;
+    margin: 10px;
+    border: none;
+    border-radius: 7px ;
+    /*box-shadow: 1px 5px 1px  rgba(128, 128, 128, 0.33);*/
+font-weight: bold;
+    font-size: 15px;
+}
+.yosh-6{
+    width: 20%;
+    height: 33px ;
+    margin: 10px;
+    border: none;
+    border-radius: 7px ;
+    /*box-shadow: 1px 5px 1px  rgba(128, 128, 128, 0.33);*/
+font-weight: bold;
+    font-size: 15px;
+}
+
+
+.bosh{
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF7B3A;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+.yoshp{
+    margin: 10px;    font-size: 16px;
+
+}
+.yoshh5{
+    margin: 10px;
+    font-size: 18px;
+}
+.yoshp span{
+    color: #2CC84D;
+}
+.dars1{
+    margin-top: 8%;
+}
+.Bilimdon1{
+    margin-top: 8%;
+}
+
+@media (min-width:300px) and (max-width: 550px){
+    .Home{
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 25%;
+        height: 115vh;
+        /*border: 1px solid red;*/
+    }
+   .texth1{
+       width: 85%;
+       font-size: 25px;
+   }
+   .textp{
+       font-size: 19px;
+   }
+   .yosh{
+       width: 90%;
+
+   }
+   .yoshh5{
+       margin-left: 6%;
+   }
+   .yoshp{
+       margin-left: 6%;
+   }
+.grl {
+    width: 100%;
+    margin-left: 1%;
+    padding: 5%;
+    margin-top: 43%;
+}
+.qush1{
+    margin-top: 40%;
+    margin-left: 77%;
+    width: 16%;
+}
+    .qush2{
+    /*margin-top: 41%;*/
+    margin-left: 5%;
+    width: 16%;
+}
+.bosh{
+    font-size: 13px;
+}
+
+
+
+    .yosh-1{
+        width: 27%;
+    }
+    .yosh-2{
+        width: 27%;
+    }
+    .yosh-3{
+        width: 27%;
+    }
+    .yosh-4{
+        width: 27%;
+    }
+    .yosh-5{
+        width: 27%;
+    }
+    .yosh-6{
+        width: 27%;
+    }
+}
+
+
+
+.yosh-1:hover{
+    box-shadow: 2px 0 3px 1px rgba(128, 128, 128, 0.48);
+}
+.yosh-2:hover{
+    box-shadow: 2px 0 3px 1px rgba(128, 128, 128, 0.48);
+}
+.yosh-3:hover{
+    box-shadow: 2px 0 3px 1px rgba(128, 128, 128, 0.48);
+}
+.yosh-4:hover{
+    box-shadow: 2px 0 3px 1px rgba(128, 128, 128, 0.48);
+}
+.yosh-5:hover{
+    box-shadow: 2px 0 3px 1px rgba(128, 128, 128, 0.48);
+}
+.yosh-6:hover{
+    box-shadow: 2px 0 3px 1px rgba(128, 128, 128, 0.48);
+}
+
+
+
+
+
+
+

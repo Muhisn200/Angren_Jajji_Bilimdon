@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Darslar{
+    width: 96%;
+    margin-left: 2%;
+    height: 100vh;
+    /*border: 1px solid blue;*/
+
+}
+.darslarh1{
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 22%;
+    padding: 40px;
+    color: #2CC84D;
+}
+.cardlar{
+    display: flex;
+
+}
+.call{
+    width: 28%;
+    height: 380px;
+    margin-top: -8px;
+    padding: 5px 30px 1px 5px;
+    object-fit: contain;
+}
+.card-1{
+    width: 22%;
+    height: 350px;
+    margin: 20px;
+    border-radius: 25px;
+    /*border: 1px solid blue;*/
+    background-color: #FCE4EC;
+
+}.card-2{
+     width: 22%;
+     height: 350px;
+     margin: 20px;
+     border-radius: 25px;
+     /*border: 1px solid blue;*/
+     background-color: #F1DDAC;
+
+
+ }.card-3{
+      width: 22%;
+      height: 350px;
+      margin: 20px;
+      border-radius: 25px;
+      /*border: 1px solid blue;*/
+      background-color: #EBF2FF;
+
+
+  }
+
+
+
+.books{
+    /*margin: -10px;*/
+    padding: 35px;
+    margin-left: -9%;
+}
+.mental{
+    width: 50%;
+    margin: -10px;
+    padding: 35px;
+}
+.yosindan1{
+    margin: -10px;
+    padding: 30px 15px;
+}
+.booksh3{
+    width: 63%;
+    margin-left: 30%;
+    margin-top: -33%;
+    font-size: 17px;
+}
+
+.booksp1{
+    width: 80%;
+    height:10%;
+    margin-left:14%;
+    font-size: 17px;
+    margin-top: 8%;
+    font-weight: bold;
+    /*padding: 40px;*/
+    color: #2b2d30;
+}.booksp2{
+     width: 90%;
+     height:10%;
+     margin-left: 4%;
+     font-size: 17px;
+     font-weight: bold;
+     padding: 30px;
+     margin-top: -4%;
+     color: #2b2d30;
+ }.booksp3{
+      width: 90%;
+      height:10%;
+      margin-left:3% ;
+      margin-top:10%;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 30px;
+      color: #2b2d30;
+  }
+
+
+.cbooksh3{
+    width: 62%;
+    margin-left: 34%;
+    margin-top: -37%;
+    font-size: 17px;
+}
+.cbooksp1{
+    width: 80%;
+    height:10%;
+    margin-left:14%;
+    font-size: 17px;
+    margin-top: 12%;
+    font-weight: bold;
+    /*padding: 40px;*/
+    color: #2b2d30;
+}.cbooksp2{
+     width: 90%;
+     height:10%;
+     margin-left: 4%;
+     font-size: 17px;
+     font-weight: bold;
+     padding: 30px;
+     margin-top: -3%;
+     color: #2b2d30;
+ }.cbooksp3{
+      width: 90%;
+      height:10%;
+      margin-left:4% ;
+      margin-top:2%;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 30px;
+      color: #2b2d30;
+  }
+
+
+
+
+.dbooksh3{
+    width: 62%;
+    margin-left: 39%;
+    margin-top: -37%;
+    font-size: 17px;
+}
+.dbooksp1{
+    width: 78%;
+    height:10%;
+    margin-left:14%;
+    font-size: 17px;
+    margin-top: 13%;
+    font-weight: bold;
+    /*padding: 40px;*/
+    color: #2b2d30;
+}.dbooksp2{
+     width: 90%;
+     height:10%;
+     margin-left: 4%;
+     font-size: 17px;
+     font-weight: bold;
+     padding: 30px;
+     margin-top: -3%;
+     color: #2b2d30;
+ }.dbooksp3{
+      width: 90%;
+      height:10%;
+      margin-left:4% ;
+      margin-top:-1%;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 30px;
+      color: #2b2d30;
+  }
+
+@media (min-width:300px) and (max-width: 550px){
+    .Darslar{
+        width: 95%;
+        height: auto;
+        /*border: 1px solid red;*/
+        margin-left: 2%;
+    }
+    .darslarh1{
+        font-size: 18px;
+        width: 90%;
+        margin-left: 6%;
+        /*border: 1px solid red;*/
+    }
+    .cardlar{
+        width: 95%;
+        margin-left: 4%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .card-1{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .card-2{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .card-3{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .booksh3{
+        width: 50%;
+        font-size: 15px;
+        margin-top: -30%;
+    }
+
+    .books{
+        margin-left: -5%;
+    }
+    .yosindan1{
+        margin-top: -10px;
+        margin-left: -5%;
+    }
+    .mental{
+        margin-top: 2px;
+    }
+    .math3{
+        margin-top: -30%;
+        font-size: 16px;
+    }
+    .booksp1{
+        margin-left: 5%;
+    }
+    .booksp2{
+        margin-left: 5%;
+    }
+    .booksp3{
+        margin-left: 5%;
+    }
+    .call{
+        width: 100%;
+
+    }
+
+
+
+
+
+    .booksh3{
+        width: 58%;
+        margin-left: 35%;
+    }
+    .booksp1{
+        margin-right: 3%;
+        margin-left: 14%;
+    }
+    .cbooksh3{
+        width: 62%;
+        /*border: 1px solid red;*/
+    }
+    .cbooksp1{
+        width: 72%;
+        /*border: 1px solid red;*/
+        margin-top: 15%;
+    }
+    .cbooksp2{
+        margin-top: 2%;
+    }
+    .cbooksp3{
+        margin-top: 3%;
+    }
+    .dbooksh3{
+        width: 60%;
+        /*border: 1px solid red;*/
+
+    }
+}
