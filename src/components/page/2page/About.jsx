@@ -2,6 +2,8 @@ import React from 'react';
 import "./About.css"
 import Book1 from "./rasmosh/Rectangle 10.png"
 import Active from "./active.jsx";
+import Footer from "../footer.jsx";
+import Dars from "./dars.jsx";
 
 function About(props) {
     return (
@@ -26,9 +28,15 @@ function About(props) {
 
 
 
-
             </div>
+            {/*<div className="ftr">*/}
+            {/*    <Footer/>*/}
 
+            {/*</div>*/}
+<div className="dr">
+    <Dars/>
+
+</div>
         </div>
     );
 }

@@ -1,14 +1,18 @@
 import React from 'react';
 import Logo from"../src/components/rasmlar/logo.png"
 import Phon from"../src/components/rasmlar/phon.png"
+import {Link} from 'react-router-dom'
 import "./nav.css"
 function Nav(props) {
     return (
         <div className="nav">
-            <img src={Logo} className={"logo"} alt=""  data-aos="fade-down"
-                 data-aos-easing="linear"
-                 data-aos-duration="1000"/>
+            <Link to="/"> <img src={Logo} className={"logo"} alt=""/>
+            </Link>
+
             <div className="btn">
+                <Link className={"l1"} to="/">Home</Link>
+                <Link className={"l3"} to="/about">Bizhaqimizda</Link>
+                <Link className={"l2"} to="/dar">Darslar</Link>
                 {/*<button className={"about"}>About</button>*/}
             </div>
             <div className="phon">

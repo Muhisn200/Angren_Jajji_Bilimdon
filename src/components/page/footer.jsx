@@ -1,39 +1,38 @@
 import React from 'react';
-import styled from 'styled-components';
-import Phon1 from"../rasmlar/phon.png"
-import { CgInstagram } from "react-icons/cg";
+import './footer.css';
+import {Link} from "react-router-dom"; // CSS faylini import qilish
+import Phon1 from"../page/../rasmlar/phon.png"
 
-import "./footer.css"
-// Styled component for Footer
-const FooterContainer = styled.footer`
-    background-color: #2b2d30;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    transition: all 0.3s ease-in-out;
-
- 
-
-    @media (max-width: 768px) {
-        padding: 15px;
-    }
-
-    @media (max-width: 480px) {
-        padding: 10px;
-    }
-`;
-
-const Footer = () => {
+const Teacher = () => {
     return (
-        <FooterContainer className="footer1">
+        <footer className="footer">
+            <div className="footer-container">
+                <div className="footer-column">
 
-            <img src={Phon1} className={"phone01"} alt=""/>
-            <a className={"inst"} href="https://www.instagram.com/_jajji_bilimdon_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><CgInstagram /></a>
-            <a className={"ph1"}  href="tel:+998931883266">+998931883266</a>
-            <a className={"ph2"} href="tel:+:+998930816378">+998930816378</a>
-        </FooterContainer>
+
+                </div>
+                <div className="footer-column">
+
+                    <Link className={"f1"} to={"/"}>home</Link>
+
+                    <Link className={"f3"} to={"/about"}>About</Link>
+                    <Link className={"f2"} to={"/dar"}>Dars</Link>
+                </div>
+                <div className="footer-column">
+
+
+
+                    <div className="social-icons">
+                        <div className="phon1">
+                            <img src={Phon1} className={"phonee"} alt=""/>
+                            <a className={"p1"} href="tel:+998931883266">+998931883266</a>
+                            <a className={"p2"} href="tel:+998331123266">+998331123266</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     );
-}
+};
 
-export default Footer;
+export default Teacher;

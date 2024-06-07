@@ -26,9 +26,26 @@ font-weight: bold;
 
 }
 .btn{
-    margin-left: 22%;
-    margin-top: -5%;
-    position: relative;
+    /*margin-left: 32%;*/
+    margin-top: -4%;
+    font-size: 20px;  letter-spacing: 2px;
+
+    display: flex;
+justify-content: center;
+    align-items: center;
+    /*position: relative;*/
+
+}
+
+.l1{
+    margin-left: -5%;
+}
+.l2{
+    margin-left: 5%;
+
+}
+.l3{
+    margin-left: 5%;
 
 }
 .mal{

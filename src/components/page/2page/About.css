@@ -7,6 +7,7 @@
     width: 100%;
     height: 100vh;
     /*border: 1px solid red;*/
+    margin-top: 5%;
 }
 
 .book1{
@@ -14,7 +15,8 @@
 }
 
 
-
+.dr{
+    margin-top: 10%;}
 
 .Our{
     justify-content: center;
@@ -44,8 +46,12 @@ color: grey;
     margin-left: 6%;
     /*border: 1px solid red;*/
     width: 30%;
-    margin-top: 7%;
+    margin-top: 5%;
     position: absolute;
+}
+.ftr{
+    width: 99%;
+    margin-top: 10%;
 }
 .welcomeh2{
     font-size: 45px;
@@ -53,7 +59,7 @@ color: grey;
     font-weight: 400;
     /*width: 35%;*/
     /*margin-left: 22%;*/
-    margin-top: 42%;
+    margin-top: 22%;
 }
 .welcomwp{
     font-size: 22px;
@@ -87,7 +93,13 @@ color: grey;
     position: absolute;
 }
 
-
+.ftr{
+    margin-top: 255%;
+    width: 379px;
+}
+.dr{
+    margin-top:250%;
+}
 }
 
 

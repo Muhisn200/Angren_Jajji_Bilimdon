@@ -8,6 +8,7 @@ import Dars5 from "./rasmosh/Rectangle 20 (4).png"
 import Dars6 from "./rasmosh/Rectangle 20 (5).png"
 import Dars7 from "./rasmosh/Rectangle 20 (6).png"
 import Dars8 from "./rasmosh/Rectangle 20 (7).png"
+import Footer from "../footer.jsx";
 function Dars(props) {
     return (
         <div className="dars">
@@ -47,9 +48,9 @@ function Dars(props) {
             </div>
             {/*</div>*/}
 
-
-
-
+<div className="fut">
+    <Footer/>
+</div>
         </div>
     );
 }
