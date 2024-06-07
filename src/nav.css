@@ -36,7 +36,9 @@ justify-content: center;
     /*position: relative;*/
 
 }
-
+.drw{
+    display: none;
+}
 .l1{
     margin-left: -5%;
 }
@@ -102,13 +104,27 @@ justify-content: center;
     .nav{
         width: 100%;
     height: auto;
-        display: none;
+        /*display: none;*/
     }
     .logo{
         width: 20%;
-
+        margin-top: 5%;
     }
-.tggg{
+  .l1{
+      display: none;
+  }
+  .l3{
+      display: none;
+  }
+.l2{
     display: none;
+}
+.drw{
+    display: block;
+}
+.drp{
+    margin-left: 35%;
+    margin-top: -11%;
+    font-size: 20px;
 }
 }

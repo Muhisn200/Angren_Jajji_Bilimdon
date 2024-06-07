@@ -1,0 +1,49 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+
+    }
+
+    .drw1{
+        margin-top: 20%;
+    }
+    .btnd{
+        margin-left: 25%;
+background-color: white;
+        color:black;
+        border: none;
+        font-size: 30px;
+        margin-top: -4% ;
+        position: absolute;
+    }
+.dr1{
+    display: flex;
+    color: #333333;
+    margin-top: 15%;
+}
+.dr2{
+    display: flex;
+    color: #333333;
+}
+    .drw2{
+        margin-top: 10%;
+
+    }
+    .drw3{
+        margin-top: 10%;
+    }
+    .drwr{
+        margin-top:40%;
+font-size: 20px!important;
+        margin-left: 10%;
+    }
+
+    .log{
+        width: 50%;
+        margin-left: 15%;
+        margin-top: -50%;
+    }
+    .pdr{
+        margin-left: 6%;
+    }

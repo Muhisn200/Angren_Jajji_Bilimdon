@@ -12,6 +12,7 @@ import Bot01 from "./components/page/botlar/bot01.jsx";
 import Aos from"aos"
 import Dars from "./components/page/2page/dars.jsx";
 import About from "./components/page/2page/About.jsx";
+import Drawer from "./components/page/2page/drawer.jsx";
 function App(props) {
     useEffect(() => {
         Aos.init()
@@ -29,6 +30,7 @@ function App(props) {
                 <Route exact path="/bot" element={<Bot01/>} />
                 <Route exact path="/dar" element={<Dars/>} />
                 <Route exact path="/about" element={<About/>} />
+                <Route exact path="/drawer" element={<Drawer/>} />
             </Routes>
         </div>
     );
