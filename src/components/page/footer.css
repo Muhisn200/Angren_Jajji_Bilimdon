@@ -127,13 +127,18 @@
     margin-top: -17%;
     position: absolute;
 }
-/* Masalan, ekranlar o'lchamiga qarab footer uchun qo'llaniladigan mos CSS */
-
-@media screen and (max-width: 768px) {
+.phon001{
+    display: none;
+}
+@media (min-width:300px) and (max-width: 550px) {
 .footer{
     width: 111%;
-    margin-top: 110%;
+    margin-top: 20%;
 }
+    .phon001{
+        display: block;
+
+    }
     .maps1{
         width: 90%;
         height: 50%;
@@ -146,12 +151,8 @@
         width: 80%;
         height: 60%;
         /*border: 1px solid red;*/
-        /*position: absolute;*/
     }
-    .ish3{
-        /*border: 1px solid red;*/
 
-    }
     .footer-container {
         flex-direction: column;
         /*border: 1px  solid red;*/
@@ -177,6 +178,8 @@
         margin-bottom: 20px;
 
     }
+
+
 }
 
 /* Boshqa mediakversiyalarga moslik uchun qo'shimcha CSS kodlari yozishingiz mumkin */

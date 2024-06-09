@@ -67,13 +67,14 @@ const Teacher = () => {
 
                     <div className="social-icons">
                         <div className="phon1">
-                            <Link className={"f1"} to={"/"}>home</Link>
-                            <Link className={"f3"} to={"/about"}>About</Link>
-                            <Link className={"f2"} to={"/dar"}>Dars</Link>
+                            <Link className={"f1"} to={"/"}>Bosh Menyu</Link>
+                            <Link className={"f3"} to={"/about"}>Biz Haqimizda</Link>
+                            <Link className={"f2"} to={"/dar"}>Darslar</Link>
                             {/*<img src={Phon1} className={"phonee"} alt=""/>*/}
                             {/*<a className={"p1"} href="tel:+998931883266">+998931883266</a>*/}
                             {/*<a className={"p2"} href="tel:+998331123266">+998331123266</a>*/}
                         </div>
+
 
                     </div>
                 </div>
