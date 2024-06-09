@@ -3,12 +3,82 @@
     margin: 0;
     padding: 0;
 }
+.map01{
+    width: 100%;
+    height: 100vh;
+}.map{
+    width: 100%;
+    height: 100vh;
+}
+
 .maps{
     margin-top: 5%;
+    /*margin-left: 80px;*/
+    width: 101%;
+
+    height: 75%;
+}
+.ish01{
+    width: 40%;
+    height: 70%;
+    margin-top: -38%;
+    position: absolute;
+    /*border: 1px solid black ;*/
+    margin-left: 52%;
+}.ish{
+    width: 40%;
+    height: 70%;
+    margin-top: -38%;
+    position: absolute;
+    /*border: 1px solid black ;*/
+    margin-left: 52%;
+}
+.ish h4{
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.ish h3{
+    color: black;
+font-weight: 400;
+    font-size: 25px;
+    margin-top: 5%;
+
+}
+.hr1{
+    margin-top: 2%;
+}.hr2{
+    margin-top: 2%;
+}
+.ish1{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black ;*/
+}
+.ish2{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black ;*/
+}
+.ish3{
+    width: 100%;
+    height: 30%;
+    /*border: 1px solid black ;*/
 }
 
 @media (min-width:300px) and (max-width: 550px){
     .maps{
-        width: 100%;
+        width:90%;
+        height: 50%;
+        margin-left: 5%;
     }
+    .ish01{
+        margin-top: 5%;
+        height: 60%;
+        width: 80%;
+        border: 1px solid red;
+        margin-left: 5%;
+    }
+
 }

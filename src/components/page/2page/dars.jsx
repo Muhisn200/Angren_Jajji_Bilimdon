@@ -12,39 +12,38 @@ import Footer from "../footer.jsx";
 function Dars(props) {
     return (
         <div className="dars">
-            <h2 className={"d1"}>Our Featured Course
-                at Smart Academy</h2>
+            <h2 className={"d1"}>Jajji Bilimdon bog’chasidagi kurslar</h2>
 
 
 
             {/*<div className="curs1">*/}
             <div className="curs"  data-aos="zoom-out-up">
                 <img src={Dars1} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Turli tadqiqotlar</p>
             </div> <div className="curs" data-aos="zoom-out-up">
                 <img src={Dars2} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Oyda 1 oshxonadagi darslar</p>
             </div> <div className="curs" data-aos="zoom-out-up">
                 <img src={Dars3} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Musiqa darslari</p>
             </div> <div className="curs" data-aos="zoom-out-up">
                 <img src={Dars4} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Yoz fasli uchun suzish kurslari</p>
             {/*</div>*/}
             </div>
             {/*<div className="curs2">*/}
             <div className="curs"  data-aos="zoom-out-up">
                 <img src={Dars5} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Qizlar uchun gimnastika , bolalar uchun kurash darslari</p>
             </div> <div className="curs" data-aos="zoom-out-up">
                 <img src={Dars6} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>0 dan ingliz tili darslari</p>
             </div> <div className="curs" data-aos="zoom-out-up">
                 <img src={Dars7} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Bolalar qo’l mexnati darslari</p>
             </div> <div className="curs" data-aos="zoom-out-up">
                 <img src={Dars8} alt=""/>
-                <p className={"c1"}>Kids Science Course</p>
+                <p className={"c1"}>Bolalar bilan tabiat qo’ynidagi sayohatlar</p>
             </div>
             {/*</div>*/}
 

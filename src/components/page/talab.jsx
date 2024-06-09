@@ -1,6 +1,6 @@
 import React from 'react';
 import "./talab.css"
-import Tfon from "../rasmlar/001.png"
+import Tfon from "../page/2page/rasmosh/0101.png"
 import Cardt1 from"../rasmlar/Frame 17.png"
 import Cardt2 from"../rasmlar/Frame 17 (1).png"
 import Cardt3 from"../rasmlar/Frame 17 (2).png"

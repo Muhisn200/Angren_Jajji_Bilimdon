@@ -10,6 +10,9 @@
     margin-left: 10%;
 
 }
+.drp{
+    display: none;
+}
 .tggg{
     width:10%;
     border-radius: 5px ;
@@ -126,5 +129,6 @@ justify-content: center;
     margin-left: 35%;
     margin-top: -11%;
     font-size: 20px;
+    display: block;
 }
 }
