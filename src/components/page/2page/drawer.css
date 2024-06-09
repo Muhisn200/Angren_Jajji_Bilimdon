@@ -5,8 +5,10 @@
 
     }
 
+
     .drw1{
         margin-top: 20%;
+
     }
     .btnd{
         margin-left: 25%;
@@ -14,7 +16,7 @@ background-color: white;
         color:black;
         border: none;
         font-size: 30px;
-        margin-top: -4% ;
+        margin-top: -2% ;
         position: absolute;
     }
 .dr1{
@@ -36,7 +38,7 @@ background-color: white;
     .drwr{
         margin-top:40%;
 font-size: 20px!important;
-        margin-left: 10%;
+        margin-left: 12%;
     }
 
     .log{

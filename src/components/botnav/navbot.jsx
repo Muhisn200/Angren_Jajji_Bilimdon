@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './tgbor01.css';
+import './navbot.css';
 
 const App = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -54,8 +54,8 @@ const App = () => {
     };
 
     return (
-        <div className="App01 ">
-            <button onClick={() => setModalOpen(true)} className={"botss"}>xoziroq qo’shilish</button>
+        <div className="App0001 ">
+            <button onClick={() => setModalOpen(true)} className={"botss01"}>Murojat uchun</button>
 
             {modalOpen && (
                 <div className="modal">
@@ -73,9 +73,9 @@ const App = () => {
                                        required/>
                             </label>
                             <label>
-                            <input  placeholder={"Xabar"} type="text" name="lastName" value={formData.lastName}
-                                   onChange={handleChange} required/>
-                        </label>
+                                <input  placeholder={"Xabar"} type="text" name="lastName" value={formData.lastName}
+                                        onChange={handleChange} required/>
+                            </label>
                             {/*<label>*/}
                             {/*    <input type="text" placeholder={"Qushimcha-savol"} name="age" value={formData.age} onChange={handleChange} required/>*/}
                             {/*</label>*/}

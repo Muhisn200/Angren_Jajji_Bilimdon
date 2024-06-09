@@ -38,7 +38,9 @@ function Home(props) {
                         chegirmalar </p>
                     <h5 className={"yoshh5"}>joyingizni band qilishga ulgurib qolin : </h5>
 
+<div className="bt">
     <Bot01/>
+</div>
 
 
 

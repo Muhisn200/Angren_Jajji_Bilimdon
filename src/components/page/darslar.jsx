@@ -8,7 +8,7 @@ import Mental from "../rasmlar/image 4.png"
 function Darslar(props) {
     return (
         <div className="Darslar">
-            <h1 className={"darslarh1"}>Darslarni tez va mukammal o’rganish + Eng yaxshi o’qituvchilar  Hammasi bizda
+            <h1 className={"darslarh1"}>Darslarni tez va mukammal o’rganish  Eng yaxshi tarbiyachi  Hammasi bizda
                 </h1>
 
             <div className="cardlar">

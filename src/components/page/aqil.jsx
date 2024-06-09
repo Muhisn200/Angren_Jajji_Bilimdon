@@ -13,13 +13,13 @@ function Aqil(props) {
                 <img className={"fonaql"} src={Fonaqil} alt="" data-aos="flip-down" data-aos-duration="1000" />
                 <img className={"aimge"} src={Aimge} alt=""  data-aos="flip-down" />
                 <h2 className={"h2aql"}>Aqliy fikrlash va har doim birinchilrdan bo’lish </h2>
-                <p className={"paql"}>4-6 yoshgacha bolgan bolalarning 1dan 100 gacha bolgan sonlar bilan  tezda misollarni yechishni o’rganadilar</p>
+                <p className={"paql"}> 4-6 yoshgacha bolgan bolalarning 1dan 100 gacha bolgan sonlar bilan  tezda misollarni yechishni o’rganadilar</p>
             </div>
             <div className="cardaqil">
                 <div className="card-a1" data-aos="zoom-out-up" >
                     <img className={"hayoliyimg"} src={Hayoliy} alt=""/>
                     <h2 className={"card1h2"}>Hayoliy raqamlar bilan ishlash</h2>
-                    <p className={"card1p"}>i4-6 yoshgacha bolgan bolalarning 1dan 100 gacha bolgan sonlar bilan  tezda misollarni yechishni o’rganadilar</p>
+                    <p className={"card1p"}>4-6 yoshgacha bolgan bolalarning 1dan 100 gacha bolgan sonlar bilan  tezda misollarni yechishni o’rganadilar</p>
                 </div>
                 <div className="card-a1" data-aos="zoom-out-up">
                     <img className={"hayoliyimg"} src={Ingliz} alt=""/>

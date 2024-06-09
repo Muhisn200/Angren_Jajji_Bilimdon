@@ -8,6 +8,8 @@
 .logo{
     width:8%;
     margin-left: 10%;
+    z-index: 2;
+    position: relative;
 
 }
 .drp{
@@ -29,30 +31,32 @@ font-weight: bold;
 
 }
 .btn{
-    /*margin-left: 32%;*/
-    margin-top: -4%;
-    font-size: 20px;  letter-spacing: 2px;
+display: flex;
+    margin-top: -5%;
+    margin-left: 47%;
+    gap: 70px;
+    font-size: 21px;
+    width: 48%;
+    /*border: 1px solid red;*/
 
-    display: flex;
-justify-content: center;
-    align-items: center;
-    /*position: relative;*/
-
+}
+.nvbt{
+    margin-top: -3%;
 }
 .drw{
     display: none;
 }
-.l1{
-    margin-left: -5%;
-}
-.l2{
-    margin-left: 5%;
+/*.l1{*/
+/*    margin-left: -5%;*/
+/*}*/
+/*.l2{*/
+/*    margin-left: 5%;*/
 
-}
-.l3{
-    margin-left: 5%;
+/*}*/
+/*.l3{*/
+/*    margin-left: 5%;*/
 
-}
+/*}*/
 .mal{
     border: 2px solid #2CC84D;
     background-color: white;
@@ -65,6 +69,17 @@ justify-content: center;
     position: relative;
     font-weight: bold;
     margin-top: -40px;
+}
+.l1{
+    color: black;
+}
+.l3{
+    color: black;
+
+}
+.l2{
+    color: black;
+
 }
 .phon{
     justify-content: center;
@@ -127,8 +142,11 @@ justify-content: center;
 }
 .drp{
     margin-left: 35%;
-    margin-top: -11%;
+    margin-top: -12%;
     font-size: 20px;
     display: block;
+}
+.nvbt{
+    display: none;
 }
 }

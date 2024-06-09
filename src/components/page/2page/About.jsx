@@ -8,11 +8,20 @@ function About(props) {
         <div className="About">
 <div className="Welcome">
    <h2 className={"welcomeh2"}>Jajji Bilimdon bog’chasiga xush kelibsiz </h2>
-    <p className={"welcomwp"}>Bolalarning aqlan ham jismonan komillikka yetishishi uchun oliy darajadagi oq’tuvchilar,va xoslangan darslar. jajji bilimdon bilan bolangizni maktab ta’limiga osson o’tishishida ko’makchi bo’ling.</p>
+    <p className={"welcomwp"}>Jajji bilimdon bog`chasi 2022-yil iyun oyidan boshlab 1 yoshdan 6 yoshgacha bo`lgan bolalarni qabul qilishni boshlagan . Bog'cha Rus tiliga ixtisoslashgan  bo'lib , qo'shimcha ravishda quyidagi darslar o'tiladi ;
+        Ingliz tili,
+        rus tili,
+        Mental Arifmetika,
+        Logoped,
+        Karate,
+        Gimnastika,
+        Massaj,
+        Musiqa.
+        Farzandingizning kelajagi o'z qo'lingizda , JAJJI BILIMDON bilan hammasi oson.  </p>
 </div>
             <div className="rasm1">
 
-                <img src={Book1} className={"book1"} alt=""/>
+                <img src={Book1} className={"book1"} alt=""  data-aos="zoom-out-up"/>
                 <div className="son">
 
 

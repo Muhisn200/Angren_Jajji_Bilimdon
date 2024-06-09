@@ -32,7 +32,7 @@
 
 }
 .imge{
-    margin-top: -40%;
+    margin-top: -43%;
     z-index: -1;
     position: relative;
 }
@@ -58,7 +58,7 @@
     width: 45%;
     margin-left:10%;
     font-size: 49px;
-    margin-top: 18%;
+    margin-top: 20%;
     color:#D43700 ;
 }
 .textp{
@@ -184,13 +184,17 @@ font-weight: bold;
    }
    .yosh{
        width: 90%;
-
+       margin-left: 25px;
    }
    .yoshh5{
-       margin-left: 6%;
+       margin-left: 4%;
    }
    .yoshp{
-       margin-left: 6%;
+       margin-left: 4%;
+   }
+   .bt{
+       margin-left: -12px;
+       margin-top: -10px;
    }
 .grl {
     width: 100%;
@@ -209,7 +213,9 @@ font-weight: bold;
     width: 16%;
 }
 .bosh{
-    font-size: 13px;
+    font-size: 12px;
+    width: 88%;
+    font-weight: bold;
 }
 
 

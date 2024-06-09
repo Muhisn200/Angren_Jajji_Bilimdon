@@ -14,6 +14,7 @@ import Dars from "./components/page/2page/dars.jsx";
 import About from "./components/page/2page/About.jsx";
 import Drawer from "./components/page/2page/drawer.jsx";
 import Grupa from "./components/page/2page/grupa.jsx";
+import Navbot from "./components/botnav/navbot.jsx";
 function App(props) {
     useEffect(() => {
         Aos.init()
@@ -33,6 +34,7 @@ function App(props) {
                 <Route exact path="/about" element={<About/>} />
                 <Route exact path="/drawer" element={<Drawer/> } />
                 <Route exact path="/grupa" element={<Grupa/> } />
+                <Route exact path="/navbot" element={<Navbot/> } />
             </Routes>
         </div>
     );

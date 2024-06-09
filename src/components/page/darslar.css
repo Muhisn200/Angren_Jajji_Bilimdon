@@ -62,7 +62,7 @@
 .books{
     /*margin: -10px;*/
     padding: 35px;
-    margin-left: -9%;
+    margin-left: -11%;
 }
 .mental{
     width: 50%;
@@ -221,7 +221,8 @@
     }
 
     .books{
-        margin-left: -5%;
+
+        margin-left: -11%;
     }
     .yosindan1{
         margin-top: -10px;

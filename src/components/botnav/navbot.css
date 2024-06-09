@@ -1,4 +1,4 @@
-.App01 {
+.App0001 {
     text-align: center;
     padding: 20px;
 }
@@ -8,7 +8,7 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-.botss{
+.botss01{
     background-color: #2CC84D;
     color: white;
     font-weight: bold;
@@ -16,8 +16,8 @@ button {
     border: none;
     z-index: 2;
     position: relative;
-    margin-left: -330px;
-    margin-top: -2%;
+    margin-left: -18px;
+    /*margin-top: -20%;*/
 }
 .yub{
     background-color: #2CC84D;
@@ -78,7 +78,7 @@ input {
     margin-top: 3%;
     box-sizing: border-box;
     border-radius: 5px;
-background-color: white;
+    background-color: white;
 }
 @media (min-width:300px) and (max-width: 550px){
     .botss{
