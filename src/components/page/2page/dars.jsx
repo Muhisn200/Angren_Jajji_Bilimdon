@@ -45,11 +45,12 @@ function Dars(props) {
                 <img src={Dars8} alt=""/>
                 <p className={"c1"}>Bolalar bilan tabiat qo’ynidagi sayohatlar</p>
             </div>
+            <div className="footers">
+                <Footer/>
+
+            </div>
             {/*</div>*/}
 
-<div className="fut">
-    <Footer/>
-</div>
         </div>
     );
 }
