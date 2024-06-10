@@ -130,7 +130,7 @@
 
 @media (min-width:300px) and (max-width: 550px) {
 .footer{
-    width: 412px;
+    width: 440px;
     position: absolute;
     margin-top: 20%;
     height: 140%;
@@ -143,14 +143,14 @@
     .maps1{
         width: 90%;
         height: 50%;
-        margin-left: 3%;
+        margin-left: 2%;
         margin-top: -1px;
     }
     .ish{
-        margin-top: -72%;
+        margin-top: -78%;
         margin-left: 8%;
         width: 80%;
-        height: 55%;
+        height: 52%;
         /*border: 1px solid red;*/
     }
 
