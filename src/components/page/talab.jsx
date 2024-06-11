@@ -11,8 +11,8 @@ function Talab(props) {
             <img className={"tfon"} src={Tfon} alt="" />
             <img className={"ttfon"} src={Ttfon} alt="" data-aos="zoom-out"/>
             <div className="ttext">
-                <h1 className={"ttexth1"}>o’z talabingizni yozing</h1>
-                <h2 className={"ttexth2"}>1. birinchi bo’lib , farzandingizning yoshi va guruhini tanlang</h2>
+                <h1 className={"ttexth1"}>O’z talabingizni yozing</h1>
+                <h2 className={"ttexth2"}>1. Birinchi bo’lib , farzandingizning yoshi va guruhini tanlang</h2>
                 <h3 className={"ttexth3"}> Bu savol talab qilinadi. *</h3>
             </div>
 
